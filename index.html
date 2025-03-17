@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SunBuzz - Traditional Indian Designs</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <h1>SunBuzz<span>Boutique</span></h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#tailoring">Custom Tailoring</a></li>
+          <li><a href="#showcase">Client Showcase</a></li>
+          <li><a href="#appointments">Appointments</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section
+        id="home"
+        class="hero"
+        style="
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('images/arun-prakash-oRqrvUAlt4c-unsplash.jpg');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+        "
+      >
+        <div class="hero-content">
+          <h1>Timeless Elegance, Modern Craftsmanship</h1>
+          <p>
+            Discover the perfect blend of traditional Indian designs with
+            contemporary styling
+          </p>
+          <div class="hero-buttons">
+            <a href="#collections" class="btn primary-btn"
+              >Explore Collections</a
+            >
+            <a href="#appointments" class="btn secondary-btn"
+              >Book Consultation</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Collections -->
+      <section id="collections" class="featured-collections">
+        <div class="section-header">
+          <h2>Our Exquisite Collections</h2>
+          <p>Handcrafted with love and tradition</p>
+        </div>
+        <div class="collection-categories">
+          <div class="category">
+            <div class="category-img">
+              <img
+                src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                alt="Saree Collection"
+              />
+            </div>
+            <h3>Sarees</h3>
+            <p>Elegant drapes for every occasion</p>
+          </div>
+          <div class="category">
+            <div class="category-img">
+              <img src="images/collection2.jpg" alt="Lehenga Collection" />
+            </div>
+            <h3>Lehengas</h3>
+            <p>Regal ensembles for celebrations</p>
+          </div>
+          <div class="category">
+            <div class="category-img">
+              <img src="images/collection3.jpg" alt="Sherwani Collection" />
+            </div>
+            <h3>Sherwanis</h3>
+            <p>Sophisticated attire for gentlemen</p>
+          </div>
+          <div class="category">
+            <div class="category-img">
+              <img src="images/collection4.jpg" alt="Anarkali Collection" />
+            </div>
+            <h3>Anarkalis</h3>
+            <p>Graceful silhouettes with intricate details</p>
+          </div>
+        </div>
+        <div class="view-all">
+          <a href="#" class="btn primary-btn">View All Collections</a>
+        </div>
+      </section>
+
+      <!-- Trending Designs -->
+      <section class="trending-designs">
+        <div class="section-header">
+          <h2>Trending This Season</h2>
+          <p>Our most sought-after designs</p>
+        </div>
+        <div class="trending-carousel">
+          <div class="trending-item">
+            <img src="images/trending1.jpg" alt="Trending Design 1" />
+            <div class="trending-info">
+              <h3>Royal Banarasi</h3>
+              <p>Handwoven silk with gold zari work</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img src="images/trending2.jpg" alt="Trending Design 2" />
+            <div class="trending-info">
+              <h3>Pastel Dreams</h3>
+              <p>Contemporary lehenga with delicate embroidery</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img src="images/trending3.jpg" alt="Trending Design 3" />
+            <div class="trending-info">
+              <h3>Maharaja Collection</h3>
+              <p>Opulent sherwanis with heritage motifs</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls"></div>
+      </section>
+
+      <!-- Custom Tailoring -->
+      <section id="tailoring" class="custom-tailoring">
+        <div class="section-header">
+          <h2>Custom Tailoring Services</h2>
+          <p>Bring your vision to life with our expert craftsmanship</p>
+        </div>
+        <div class="tailoring-process">
+          <div class="process-step">
+            <div class="step-icon">
+              <i class="fas fa-tshirt"></i>
+            </div>
+            <h3>Select Your Style</h3>
+            <p>
+              Choose from our extensive design catalog or bring your own
+              inspiration
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-icon">
+              <i class="fas fa-ruler-combined"></i>
+            </div>
+            <h3>Measurements</h3>
+            <p>
+              Get measured in-store or follow our video guide for accurate
+              self-measurements
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Fabric & Embellishments</h3>
+            <p>Select from premium fabrics and customize embroidery details</p>
+          </div>
+          <div class="process-step">
+            <div class="step-icon">
+              <i class="fas fa-cut"></i>
+            </div>
+            <h3>Crafting</h3>
+            <p>
+              Our artisans bring your design to life with meticulous attention
+              to detail
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Final Fitting</h3>
+            <p>Ensure perfect fit with our expert tailors before delivery</p>
+          </div>
+        </div>
+        <div class="tailoring-cta">
+          <a href="#appointments" class="btn primary-btn"
+            >Schedule Consultation</a
+          >
+        </div>
+      </section>
+
+      <!-- Client Showcase -->
+      <section id="showcase" class="client-showcase">
+        <div class="section-header">
+          <h2>Client Showcase</h2>
+          <p>Real people, real elegance</p>
+        </div>
+        <div class="showcase-gallery">
+          <div class="showcase-item">
+            <img src="images/showcase1.jpg" alt="Client Showcase 1" />
+            <div class="showcase-overlay">
+              <p>
+                "The craftsmanship exceeded my expectations. Perfect for my
+                engagement ceremony!"
+              </p>
+              <span>- Priya S.</span>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <img src="images/showcase2.jpg" alt="Client Showcase 2" />
+            <div class="showcase-overlay">
+              <p>
+                "My wedding lehenga was a dream come true. Thank you for making
+                me feel like royalty."
+              </p>
+              <span>- Ananya M.</span>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <img src="images/showcase3.jpg" alt="Client Showcase 3" />
+            <div class="showcase-overlay">
+              <p>
+                "The sherwani was perfect for my reception. Elegant and
+                comfortable!"
+              </p>
+              <span>- Rahul K.</span>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <img src="images/showcase4.jpg" alt="Client Showcase 4" />
+            <div class="showcase-overlay">
+              <p>
+                "Received so many compliments on my custom anarkali. Will
+                definitely be back!"
+              </p>
+              <span>- Meera J.</span>
+            </div>
+          </div>
+        </div>
+        <div class="showcase-cta">
+          <p>Share your Elegance Boutique experience with us</p>
+          <a href="#" class="btn outline-btn">Submit Your Photo</a>
+        </div>
+      </section>
+
+      <!-- Appointment Booking -->
+      <section id="appointments" class="appointments py-5">
+        <div class="container">
+          <div class="section-header text-center mb-5">
+            <h2>Book Your Appointment</h2>
+            <p>Personalized attention for your unique style</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-5">
+              <div class="appointment-info p-4 h-100">
+                <h3 class="mb-4">Why Book an Appointment?</h3>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-3">
+                    <i
+                      class="fas fa-check me-2"
+                      style="color: var(--primary-color)"
+                    ></i>
+                    Dedicated designer consultation
+                  </li>
+                  <li class="mb-3">
+                    <i
+                      class="fas fa-check me-2"
+                      style="color: var(--primary-color)"
+                    ></i>
+                    Personalized styling advice
+                  </li>
+                  <li class="mb-3">
+                    <i
+                      class="fas fa-check me-2"
+                      style="color: var(--primary-color)"
+                    ></i>
+                    Exclusive fabric viewing
+                  </li>
+                  <li class="mb-3">
+                    <i
+                      class="fas fa-check me-2"
+                      style="color: var(--primary-color)"
+                    ></i>
+                    Detailed measurements
+                  </li>
+                  <li class="mb-3">
+                    <i
+                      class="fas fa-check me-2"
+                      style="color: var(--primary-color)"
+                    ></i>
+                    Customization options
+                  </li>
+                </ul>
+                <div class="row g-4 mt-2">
+                  <div class="col-md-6">
+                    <div class="appointment-type text-center p-3 h-100">
+                      <i
+                        class="fas fa-store fa-2x mb-3"
+                        style="color: var(--primary-color)"
+                      ></i>
+                      <h4>In-Store Visit</h4>
+                      <p class="mb-0">
+                        Visit our boutique for a complete experience
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="appointment-type text-center p-3 h-100">
+                      <i
+                        class="fas fa-video fa-2x mb-3"
+                        style="color: var(--primary-color)"
+                      ></i>
+                      <h4>Virtual Consultation</h4>
+                      <p class="mb-0">
+                        Connect with our designers from anywhere
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="appointment-form p-4">
+                <form id="bookingForm" class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phone"
+                      name="phone"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="appointmentType" class="form-label"
+                      >Appointment Type</label
+                    >
+                    <select
+                      class="form-select"
+                      id="appointmentType"
+                      name="appointmentType"
+                      required
+                    >
+                      <option value="">Select an option</option>
+                      <option value="inStore">In-Store Visit</option>
+                      <option value="virtual">Virtual Consultation</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="date" class="form-label">Preferred Date</label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="date"
+                      name="date"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="time" class="form-label">Preferred Time</label>
+                    <input
+                      type="time"
+                      class="form-control"
+                      id="time"
+                      name="time"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="requirements" class="form-label"
+                      >Special Requirements</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="requirements"
+                      name="requirements"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="col-12 mt-4 text-center">
+                    <button type="submit" class="btn primary-btn px-5 py-2">
+                      Book Appointment
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials py-5 bg-light">
+        <div class="container">
+          <div class="section-header text-center mb-5">
+            <h2>What Our Clients Say</h2>
+            <p>Stories of satisfaction and elegance</p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div
+                id="testimonialCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="testimonial p-4 bg-white rounded shadow-sm">
+                      <div class="testimonial-content mb-4">
+                        <p class="fst-italic">
+                          "The attention to detail in my bridal lehenga was
+                          extraordinary. Every stitch, every embellishment was
+                          perfect. The team understood exactly what I wanted and
+                          delivered beyond my expectations."
+                        </p>
+                      </div>
+                      <div class="testimonial-author d-flex align-items-center">
+                        <img
+                          src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3"
+                          alt="Testimonial Author"
+                          class="rounded-circle me-3"
+                          width="60"
+                          height="60"
+                          style="object-fit: cover"
+                        />
+                        <div class="author-info">
+                          <h4 class="mb-0" style="color: var(--primary-color)">
+                            Neha Sharma
+                          </h4>
+                          <p class="mb-0 text-muted">Delhi</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonial p-4 bg-white rounded shadow-sm">
+                      <div class="testimonial-content mb-4">
+                        <p class="fst-italic">
+                          "As someone who lives abroad, I was worried about
+                          getting traditional outfits made remotely. The virtual
+                          consultation service was a game-changer! My family's
+                          outfits for my brother's wedding were perfect."
+                        </p>
+                      </div>
+                      <div class="testimonial-author d-flex align-items-center">
+                        <img
+                          src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                          alt="Testimonial Author"
+                          class="rounded-circle me-3"
+                          width="60"
+                          height="60"
+                          style="object-fit: cover"
+                        />
+                        <div class="author-info">
+                          <h4 class="mb-0" style="color: var(--primary-color)">
+                            Vikram Patel
+                          </h4>
+                          <p class="mb-0 text-muted">London</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonial p-4 bg-white rounded shadow-sm">
+                      <div class="testimonial-content mb-4">
+                        <p class="fst-italic">
+                          "I've been a customer for over 5 years now. The
+                          quality and craftsmanship have always been consistent.
+                          Their ability to blend traditional techniques with
+                          modern designs keeps me coming back."
+                        </p>
+                      </div>
+                      <div class="testimonial-author d-flex align-items-center">
+                        <img
+                          src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                          alt="Testimonial Author"
+                          class="rounded-circle me-3"
+                          width="60"
+                          height="60"
+                          style="object-fit: cover"
+                        />
+                        <div class="author-info">
+                          <h4 class="mb-0" style="color: var(--primary-color)">
+                            Anjali Mehta
+                          </h4>
+                          <p class="mb-0 text-muted">Mumbai</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-indicators position-relative mt-4">
+                  <button
+                    type="button"
+                    data-bs-target="#testimonialCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    style="background-color: var(--primary-color)"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#testimonialCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                    style="background-color: var(--primary-color)"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#testimonialCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                    style="background-color: var(--primary-color)"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us -->
+      <section id="about" class="about-us">
+        <div class="section-header">
+          <h2>Our Heritage</h2>
+          <p>A legacy of craftsmanship and tradition</p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="images/about us.jpg" alt="Elegance Boutique" />
+          </div>
+          <div class="about-text">
+            <h3>Celebrating 25 Years of Excellence</h3>
+            <p>
+              Elegance Boutique was founded in 1998 with a vision to preserve
+              the rich heritage of Indian craftsmanship while embracing
+              contemporary design sensibilities. What started as a small
+              family-run establishment has grown into a renowned name in
+              traditional Indian wear.
+            </p>
+            <p>
+              Our team of master artisans, many of whom have been with us for
+              decades, bring generations of expertise to every piece we create.
+              We source the finest fabrics from across India and work with
+              skilled embroiderers who specialize in traditional techniques like
+              zardozi, gota patti, and aari work.
+            </p>
+            <p>
+              At Elegance Boutique, we believe that every garment tells a story
+              - of cultural heritage, artistic expression, and personal style.
+              We are committed to creating pieces that not only look beautiful
+              but also carry forward the legacy of Indian craftsmanship.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <span>25+</span>
+                <p>Years of Excellence</p>
+              </div>
+              <div class="highlight">
+                <span>5000+</span>
+                <p>Happy Clients</p>
+              </div>
+              <div class="highlight">
+                <span>30+</span>
+                <p>Master Artisans</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>SunBuzz<span>Boutique</span></h2>
+          <p>Timeless Elegance, Modern Craftsmanship</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#collections">Collections</a></li>
+              <li><a href="#tailoring">Custom Tailoring</a></li>
+              <li><a href="#showcase">Client Showcase</a></li>
+              <li><a href="#appointments">Appointments</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Collections</h3>
+            <ul>
+              <li><a href="#">Sarees</a></li>
+              <li><a href="#">Lehengas</a></li>
+              <li><a href="#">Sherwanis</a></li>
+              <li><a href="#">Anarkalis</a></li>
+              <li><a href="#">Indo-Western</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="contact-info">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 Fashion Street, Delhi,
+                India
+              </li>
+              <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+              <li><i class="fas fa-envelope"></i> info@eleganceboutique.com</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="store-hours">
+              <h3>Store Hours</h3>
+              <p>Monday - Saturday: 10:00 AM - 8:00 PM</p>
+              <p>Sunday: 11:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Elegance Boutique. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
